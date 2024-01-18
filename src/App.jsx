@@ -25,7 +25,10 @@ function App() {
             element={<Resume />}
             exact
           />
-          <Route element={<NotFound />} />
+          <Route
+            path="*"
+            element={<NotFound />}
+          />
         </Routes>
       </BrowserRouter>
     </>
