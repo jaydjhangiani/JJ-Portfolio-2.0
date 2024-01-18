@@ -35,12 +35,12 @@ export const PDFView = styled.div`
   align-items: center;
 
   @media screen and (max-width: 760px) {
-    margin: 50px auto;
+    margin: 40px auto;
     width: 60%;
   }
 
   @media screen and (max-width: 480px) {
-    width: 90%;
+    width: 80%;
   }
 `;
 
@@ -54,6 +54,6 @@ export const Icon = styled(Link)`
 
   @media screen and (max-width: 480px) {
     margin-left: 16px;
-    margin-top: 8px;
+    margin-top: 20px;
   }
 `;
