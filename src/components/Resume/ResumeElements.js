@@ -43,3 +43,17 @@ export const PDFView = styled.div`
     width: 90%;
   }
 `;
+
+export const Icon = styled(Link)`
+  margin-left: 32px;
+  margin-top: 32px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+
+  @media screen and (max-width: 480px) {
+    margin-left: 16px;
+    margin-top: 8px;
+  }
+`;
